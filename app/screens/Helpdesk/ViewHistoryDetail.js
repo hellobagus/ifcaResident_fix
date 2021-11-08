@@ -756,9 +756,7 @@ export default function ViewHistoryDetail({route}) {
             </ScrollView>
           </View>
         ) : (
-          <View>
-            <Text>no data</Text>
-          </View>
+          <Text>No Data Available</Text>
         )}
       </View>
     </SafeAreaView>
